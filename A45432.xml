@@ -1,0 +1,934 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Daily thoughts, or, A miscellany of meditations holy &amp; humane by Jos. Henshaw.</title>
+            <author>Henshaw, Joseph, 1603-1679.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1651</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 76 KB of XML-encoded text transcribed from 65 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A45432</idno>
+            <idno type="STC">Wing H57</idno>
+            <idno type="STC">ESTC R25711</idno>
+            <idno type="EEBO-CITATION">09087070</idno>
+            <idno type="OCLC">ocm 09087070</idno>
+            <idno type="VID">42402</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A45432)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 42402)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1286:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Daily thoughts, or, A miscellany of meditations holy &amp; humane by Jos. Henshaw.</title>
+                  <author>Henshaw, Joseph, 1603-1679.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The third edition much enlarged.</edition>
+               </editionStmt>
+               <extent>[5], 120 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by W.H. for T.A., and are to be sold by G.B.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1651.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Meditations.</term>
+               <term>Spiritual exercises.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-09</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2012-09</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:42402:1" rendition="simple:additions"/>
+            <p>DAILY THOUGHTS: OR A <hi>MISCELLANY</hi> OF MEDITATIONS, Holy &amp; Humane.</p>
+            <p>The third Edition much enlarged,</p>
+            <p>By <hi>Joſ: Henſhaw,</hi> Dr of Divinity.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>W. H.</hi> for <hi>T. A.</hi> and are to be ſold by <hi>G.B.</hi> at his ſhop in S. <hi>Dunſtans</hi> Church-yard in Fleet-ſtreet, 1651.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:42402:2"/>
+            <pb facs="tcp:42402:2"/>
+            <head>TO The READER.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T is not out of deſire of be<g ref="char:EOLhyphen"/>ing known, nor out of a deſire to bee thought to know, that I doe commend this ſmall Tract to the world; but to take up
+<pb facs="tcp:42402:3"/>the roome of worſe thoughts in thy head, and of worſe Bookes in thy hands; it is the work of younger yeares, and the fruit of idle times, not of a ſerious ſtudy, and no otherwiſe do I publiſh it to view; though I am perſwa<g ref="char:EOLhyphen"/>ded it would conduce much to the peace of the Church, if Bookes of this nature were more in uſe: it were to bee wiſhed that inferiours would imploy their time rather in holy Meditation of thoſe truths which are already re<g ref="char:EOLhyphen"/>ceived
+<pb facs="tcp:42402:3"/>in the Church, than in making themſelves, or ſhewing themſelves able to defend them; not that I would commend an ignorant devotion to any, or deſire men to know leſſe good, but more to practice that good which they know; nor turne Reli<g ref="char:EOLhyphen"/>gion into diſputation, but turne their diſputation into action, and obedience; they ſhall finde in the laſt day that it is holineſſe, not knowledge, (I doe not ſay holineſſe with<g ref="char:EOLhyphen"/>out knowledge) that must
+<pb facs="tcp:42402:4"/>bring them to Heaven; <hi>Su<g ref="char:EOLhyphen"/>premo illi judici non ſcripta approbanda, ſed facta;</hi> not the diſputer, but the doer of Gods will ſhall be juſtified: men while they ſpend their time in diſputing what they ſhould doe, they too often neglect to doe even thoſe things which are without diſpute; in this Book if there be little paines, yet there is no hurt; nay, it is thy owne fault if there riſe not ſome good to thee from it, which if thou ſecond with pra<g ref="char:EOLhyphen"/>ctice,
+<pb facs="tcp:42402:4"/>will bring thee to an eternall good, which I wiſh thee.</p>
+            <closer>
+               <signed>IOS: HENSHAW.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="collection">
+            <pb facs="tcp:42402:5"/>
+            <pb n="1" facs="tcp:42402:5" rendition="simple:additions"/>
+            <head>Daily Thoughts.</head>
+            <div type="item">
+               <p>
+                  <seg rend="decorInit">M</seg>Ake the Word of <hi>God</hi> the Rule, and <hi>God</hi> him<g ref="char:EOLhyphen"/>ſelfe the Pa<g ref="char:EOLhyphen"/>terne of all thy actions; con<g ref="char:EOLhyphen"/>template <hi>God</hi> and thy ſelfe; what He is, what Hee requires thee to be, like Him in a de<g ref="char:EOLhyphen"/>gree, though not a perfection; in a perfection of ſincerity, though not of degrees. Do no<g ref="char:EOLhyphen"/>thing againſt thy word, and let
+<pb n="2" facs="tcp:42402:6"/>thy word be regulated by <hi>God's</hi> Word; do not ill for compa<g ref="char:EOLhyphen"/>ny, nor good onely for compa<g ref="char:EOLhyphen"/>ny.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy talke not bee much, and that profitable: be ſpa<g ref="char:EOLhyphen"/>ring of oaths and promiſes, and performe both: ſhun jeſts in holy things, and abhorre lies though in jeſt: ſpeake to the capacities, but not to the hu<g ref="char:EOLhyphen"/>mors of men; ſo frame thy talke, as one that is going ſhortly to give an account of his words: detract from no man but thy ſelfe, ſpeake well of all men till thou knoweſt o<g ref="char:EOLhyphen"/>therwiſe, and where thou canſt not ſpeake well, be ſilent: me<g ref="char:EOLhyphen"/>ditate
+<pb n="3" facs="tcp:42402:6"/>often upon the ſhortneſſe of thy life, and be carefull ſo to imploy it, as that thou doeſt not make thy account long; meaſure the length of it as the Scripture doth by a Bubble, and a Shadow, and a Flower light and vaniſhing; but yet to comfort thy ſelf in this pre<g ref="char:EOLhyphen"/>ſent ſtate with the remem<g ref="char:EOLhyphen"/>brance of the future; that if this life which thou haſt bee ſhort, yet that which thou ho<g ref="char:EOLhyphen"/>peſt for, is eternall.</p>
+               <q>
+                  <lg>
+                     <l>My life is like a Bubble, but a blaſt.</l>
+                     <l>At firſt God breath'd into me, and I live;</l>
+                     <l>And like a Bubble, I doe daily waſt,</l>
+                     <l>and am like water powr'd into a ſive;</l>
+                     <l>Lord, ſince I am thy bubble, when I die,</l>
+                     <l>Like to a bubble, let me aſcend on high.</l>
+                  </lg>
+                  <lg>
+                     <l>Or if you will, my life is like a Flower,</l>
+                     <l>And like a Flower for a while I ſtand;</l>
+                     <pb n="4" facs="tcp:42402:7"/>
+                     <l> I am, and am not in an other <gap reason="illegible: faint" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>owre,</l>
+                     <l>For I am gather'd by the owner's hand;</l>
+                     <l>Since I am ſo, why am I ſo corrupt,</l>
+                     <l>That do not know how ſoon I ſhal be pluckt</l>
+                  </lg>
+                  <lg>
+                     <l>But of all Flowers, moſt of all me thinks,</l>
+                     <l>Reſembled in the Marigold am I;</l>
+                     <l>And like the Marigold that wakes and winks,</l>
+                     <l>Still as it ſees the Sun, am borne and die;</l>
+                     <l>But her's my comfort, with that flower when</l>
+                     <l>The Sun appeareth, I ſhall blow agen.</l>
+                  </lg>
+               </q>
+            </div>
+            <div type="item">
+               <p>AFfect not to ſet out thy ſelfe to the world, nor to thy ſelfe; ſpeake not thine owne praiſe, nor greedily heare it from others, nor too ea<g ref="char:EOLhyphen"/>ſily beleeve it: ſpend thy time rather in preſſing forward to what thou ſhouldſt be, then in idly contemplating, or conten<g ref="char:EOLhyphen"/>ting
+<pb n="5" facs="tcp:42402:7"/>thy ſelfe with what thou art; thinke meanely of thy ſelfe, and that thought will both make thee modeſt (for he that ſuſpects himſelfe is not bold) and eager in the purſuite of that goodneſſe or knowledge wherein thou ſuppoſeſt thy ſelf defective; be ready rather to give, then to take an applauſe, and if thou art apt to thinke thou deſerveſt well, check it with thinking how many de<g ref="char:EOLhyphen"/>ſerve better.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy thoughts be ſuch to thy ſelfe, that if it ſhould be ſuddenly ask'd, what thou think'ſt on, thou mighteſt not bluſh to tell; ſtifle ſinne in
+<pb n="6" facs="tcp:42402:8"/>the firſt warmth and quick<g ref="char:EOLhyphen"/>ning, before it ſhape too farre: a twig may be pluckt up with one hand, which the whole bo<g ref="char:EOLhyphen"/>dy cannot wag, when it is a tree; even evill thoughts are evill, and though yet they bee not, yet cheriſhed, will ſpread into evill actions.</p>
+            </div>
+            <div type="item">
+               <p>BE not eaſily provoked, and eaſily be friends; give no occaſion of exceptions thy ſelf, and doe not eaſily take excepti<g ref="char:EOLhyphen"/>ons at others; and be ready to make ſatisfaction to thoſe that have juſt exceptions againſt thee; it is a greater vertue to forgive one injury, than to do many courteſies; becauſe it is
+<pb n="7" facs="tcp:42402:8"/>harder: and it is harder, becauſe more againſt nature; for many a man will doe for another, that will not ſuffer for him; there<g ref="char:EOLhyphen"/>fore it is a greater perfection to bee contented to ſuffer, than to be willing to do, unleſſe it be to do for thoſe of whom wee have ſuffered, for our enemies, which is the higheſt.</p>
+            </div>
+            <div type="item">
+               <p>AFfect the company of thoſe who are abler then thy ſelfe, and deſire rather to partake of others ſufficiency, than to publiſh thine owne; in meaner company thou maieſt bee admired more, but in this thou ſhalt profit more: it is better to learne wiſdome
+<pb n="8" facs="tcp:42402:9"/>from thoſe that are wiſe, then to be thought wiſe by thoſe that are ignorant: be ſtudious rather of being able, then of being ſo accounted; not to picke up thy knowledge, eſpe<g ref="char:EOLhyphen"/>cially thy opinions, from other mens diſcourſe; but with paines and induſtry rather to ſearch out the knowledge of truth thy ſelfe, then lazily to take it up from others.</p>
+            </div>
+            <div type="item">
+               <p>IN Religion examine, but not broach opinions; ever in<g ref="char:EOLhyphen"/>cline to Antiquity, and ſuſpect novelty; in middle things ever ſubmit to the Authority thou liveſt under, and let the Churches opinion be thine.</p>
+            </div>
+            <div type="item">
+               <pb n="9" facs="tcp:42402:9"/>
+               <p>MEaſure not equity and right by friends and pro<g ref="char:EOLhyphen"/>fit, nor do wrong, either to get or to doe a courteſie; not up<g ref="char:EOLhyphen"/>braid others with the kindneſ<g ref="char:EOLhyphen"/>ſes thou doeſt for them, nor for<g ref="char:EOLhyphen"/>get the kindneſſes which o<g ref="char:EOLhyphen"/>thers doe for thee: be ſparing of receiving a curteſie where it is an ingagement, and of doing one where it is diſhonoura<g ref="char:EOLhyphen"/>ble.</p>
+            </div>
+            <div type="item">
+               <p>BE not wilfull nor wavering, not change but upon good reaſon, not obſtinate againſt reaſon; not beleeve every re<g ref="char:EOLhyphen"/>port, not to report every thing
+<pb n="10" facs="tcp:42402:10"/>thou believeſt; not grant every thing which thou canſt not an<g ref="char:EOLhyphen"/>ſwer, but ſuſpect rather thine owne inſufficiency that cannot defend it, then cry downe the matter as not to be defended.</p>
+            </div>
+            <div type="item">
+               <p>BE ſparing of thy commen<g ref="char:EOLhyphen"/>dations, eſpecially of thy ſelfe; commend no man unde<g ref="char:EOLhyphen"/>ſervedly, that is flattery; not thy ſelfe, though never ſo deſer<g ref="char:EOLhyphen"/>ving, it is vaine glory.</p>
+            </div>
+            <div type="item">
+               <p>DO not admire or applaud what thou underſtandeſt not; do not ſeem to underſtand where thou doſt not; it is bet<g ref="char:EOLhyphen"/>ter to acknowledge thy igno<g ref="char:EOLhyphen"/>rance,
+<pb n="11" facs="tcp:42402:10"/>and learn; than falſly to profeſs learning, and be ſtill ig<g ref="char:EOLhyphen"/>norant.</p>
+            </div>
+            <div type="item">
+               <p>DEſire rather to doe well, than to heare well; if thou canſt, preſerve to thy ſelfe a good report, but be ambitious onely of a good conſcience; do not meaſure thy ſelfe by other mens reports, nor meaſure o<g ref="char:EOLhyphen"/>ther men by thy ſelfe; aske thine owne heart, and not their tongues, what thou art.</p>
+            </div>
+            <div type="item">
+               <p>LAbour to reſorme thy ſelfe firſt, let other mens finnes rather be the ſubject of thy griefe, than of thy diſcourſe; ſo
+<pb n="12" facs="tcp:42402:11"/>ſpeake of other mens ſinnes, as that thou detract not from the perſon; and ſo excuſe or miti<g ref="char:EOLhyphen"/>gate the ſlip of any perſon, as that thou ſeem not to counte<g ref="char:EOLhyphen"/>nance the ſin.</p>
+            </div>
+            <div type="item">
+               <p>DOe not thinke thou art good enough, ſo long as thou art not knowne to be o<g ref="char:EOLhyphen"/>therwiſe, and never thinke thy life ſo good, as not to need men<g ref="char:EOLhyphen"/>ding.</p>
+            </div>
+            <div type="item">
+               <p>SAy nothing but what thou meaneſt, and promiſe no<g ref="char:EOLhyphen"/>thing but what thou art able; not to intend what thou ſpea<g ref="char:EOLhyphen"/>keſt, is to give thy heart the lye
+<pb n="13" facs="tcp:42402:11"/>with thy tongue; not to per<g ref="char:EOLhyphen"/>forme what thou promiſeſt, is to give thy tongue the lie with thy actions.</p>
+            </div>
+            <div type="item">
+               <p>DOe not greedily find frult in any, nor reporoachfully publiſh it; but rather by a hiddenand oblique way to inſi<g ref="char:EOLhyphen"/>nuate his error to him, than de<g ref="char:EOLhyphen"/>tractingly to blaze it; ſeeke not the advancement of thine owne wit by another mans fol<g ref="char:EOLhyphen"/>ly; not alwaies comply with the fortune, and cenſure him that is downe, not event, nor con<g ref="char:EOLhyphen"/>demne that as unadviſedly ta<g ref="char:EOLhyphen"/>ken which ſucceeds ill.</p>
+            </div>
+            <div type="item">
+               <pb n="14" facs="tcp:42402:12"/>
+               <p>PUt not off devotion and the Duties of Religion with want of leaſure; nor the needy, and duties of charity with want of abilitie; in both, though never ſo ſtraightned, thou mayeſt doe ſomewhat, though the leſſe; a ſigh or a grow in the one, and a cup of cold water in the other thou thou canſt not be without.</p>
+            </div>
+            <div type="item">
+               <p>WHen thou promiſeſt, think thou mayeſt bee taken at thy word; be nothing in a word; bee nothing in a complement, which thou da<g ref="char:EOLhyphen"/>reſt not ſtand to in earneſt: as
+<pb n="15" facs="tcp:42402:12"/>there is leſſe ſinne, ſo there is leſſe wrong in denying than in not performing: to deny is at moſt but a diſcourteſie; not to performe is an injury; for if thou denyeſt, bee may ſeeke to others, if thou deceiveſt, hee failes of all; it is lawfull for thee not to promiſe, it is not lawfull for thee to breake pro<g ref="char:EOLhyphen"/>miſe.</p>
+            </div>
+            <div type="item">
+               <p>OBſerve what is good in a<g ref="char:EOLhyphen"/>ny man, and learne it; what is evill, and eſchew it, if any thing good in thy ſelfe, to be thankefull for it; or evill, if evill of puniſhment, to beare it; if evill of ſinne, to repent of it; not deride any mans im<g ref="char:EOLhyphen"/>perfections,
+<pb n="16" facs="tcp:42402:13"/>but thank God that they are not thine; not to ſcorn any friend for an errour; but be ſorry that he is wrong, and be ſo much his friend, as to en<g ref="char:EOLhyphen"/>deavour to ſet him right.</p>
+            </div>
+            <div type="item">
+               <p>FOr a ſervant ever to ſpeake well of his Maſter; if ill, to ſpeake the beſt; if ill to him, to impute it to his ill deſer<g ref="char:EOLhyphen"/>ving, is a duty, yet a commen<g ref="char:EOLhyphen"/>dations; to thinke obedience a vertue, not ſervitude, and that it is not the leaſt maſtery, ſo farre to command ones ſelfe, as to bee contented to ſubmit to the command of others.</p>
+            </div>
+            <div type="item">
+               <pb n="17" facs="tcp:42402:13"/>
+               <p>DO courteſies for others as gifts, not looking for re<g ref="char:EOLhyphen"/>quitall; receive courteſies of others a loanes, and meaning to repay; what favours thou doeſt for others, to forget them; if thou receiveſt any, ever to remember them; not to requite the injuries of an e<g ref="char:EOLhyphen"/>nemy with the like, nor the good turnes of a friend onely with the like.</p>
+            </div>
+            <div type="item">
+               <p>SPeak not cenſoriouſly of thy betters, nor ſcornefully of thy inferiours, not vaine glori<g ref="char:EOLhyphen"/>ouſly of thy ſelfe, not to boaſt of thy ſelfe that which thou ne<g ref="char:EOLhyphen"/>ver
+<pb n="18" facs="tcp:42402:14"/>didſt, nor to aſſume to thy ſelfe the praiſe of that learning and wit, which is not thine owne; not ſlightly and under<g ref="char:EOLhyphen"/>valuingly to ſpeake of other mens vertues, and not at all of their vices; not to thinke ſu<g ref="char:EOLhyphen"/>perciliouſneſſe majeſty, or a grave reſervedneſſe wiſdome, as if thou wouldeſt bee therefore thought wiſe, becauſe thou ſay<g ref="char:EOLhyphen"/>eſt little; not be a riddle which is rather to puzzle curioſity, than to benefit ſociety, which man was made for; and there<g ref="char:EOLhyphen"/>fore be ſuch rather as men may make uſe of thee, than be troub<g ref="char:EOLhyphen"/>led to know thee.</p>
+            </div>
+            <div type="item">
+               <pb n="19" facs="tcp:42402:14"/>
+               <p>BE covetous of nothing but of doing good, and bee pro<g ref="char:EOLhyphen"/>digall of nothing but good counſell; be ſlow in beleeving ill of any, but ſlower in ſpeak<g ref="char:EOLhyphen"/>ing it.</p>
+            </div>
+            <div type="item">
+               <p>IN place of judicature, looke not whoſe cauſe comes be<g ref="char:EOLhyphen"/>fore thee, but what: and judge even thy brother, not as a bro<g ref="char:EOLhyphen"/>ther, but a Judge: not mea<g ref="char:EOLhyphen"/>ſure the ſentence by the relati<g ref="char:EOLhyphen"/>on: not ſell judgement, nor doe a profitable wrong: it will ne<g ref="char:EOLhyphen"/>ver repent thee that thou art the poorer for doing right.</p>
+            </div>
+            <div type="item">
+               <pb n="20" facs="tcp:42402:15"/>
+               <p>BE milde to all, but know when to bee ſevere; there is an unſeaſonable meekneſſe; I know not which is worſe, to be angry unjuſtly, or not to be juſtly angry; if by the firſt thou maieſt wrong an innocent per<g ref="char:EOLhyphen"/>ſon, by the other thou makeſt a guilty: ſometime to be ſilent at it, is to encourage a fault; it may be a due chiding would re<g ref="char:EOLhyphen"/>forme that offence which takes heart with ſufferance.</p>
+            </div>
+            <div type="item">
+               <p>AFfirme not any thing out of humor, or becauſe thou haſt affirm'd it; it is a greater diſparagement to ſtand in a lye
+<pb n="21" facs="tcp:42402:15"/>then to recant an error: to erre is but a weakeneſſe, and the caſe of all; to acknowledge an er<g ref="char:EOLhyphen"/>rour is a vertue, and the praiſe but of a few: but to maintaine an errour is a ſinne, and it is a greater offence to juſtifie a ſin, than to fall into it.</p>
+            </div>
+            <div type="item">
+               <p>LOve, but not be fond of the body; to love it is a duty, to be fond of it is a ſinne: let the fare be ſuch as may neither impare the health of it, nor the devotion: the apparrel neate, not chargeable, not mimically in, nor ridiculouſly out of fa<g ref="char:EOLhyphen"/>ſhion: ſuch as may agree with thy eſtate, thy yeeres, thy pro<g ref="char:EOLhyphen"/>feſſion: not at all to invent and
+<pb n="22" facs="tcp:42402:16"/>ſlowly to take up a faſhion, and that rather becauſe thou would'ſt not be ſingular, then becauſe thou likeſt it, &amp; as may ſhew thee willing to bee con<g ref="char:EOLhyphen"/>ſtant, but not obſtinate.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy recreations be ſhort and diverting, ſuch as may rather fit thee for buſineſſe, than rob thee of time: long and tedious ſports doe rather take away the ſtomack to ſeri<g ref="char:EOLhyphen"/>ous things than whet it he that makes recreation a buſineſſe, will think buſineſſe a toile.</p>
+            </div>
+            <div type="item">
+               <p>SUbmit to every fortune, and like it, not place felicity in
+<pb n="23" facs="tcp:42402:16"/>wealth and greatneſſe: to bee without, and yet not to want theſe: or to want, and yet not deſire them: to be able to man<g ref="char:EOLhyphen"/>nage a great eſtate, and to beare a meane: to like Gods will even when it croſſeth thine: cheerfully to paſſe over croſſes, yet to take notice of them: to be patient, but not without ſenſe: to be ſorrowfull but not without hope: not to grow great by corruption, nor to grow proud with greatneſſe; nor to grow ſtrange to others in a high eſtate, or thinke God ſo to thee, or you ſo to him in a meane: not to ebbe and flow with thy condition, and bee ei<g ref="char:EOLhyphen"/>ther ſupercilious or dejected, to take the changes of this
+<pb n="24" facs="tcp:42402:17"/>World without any great change of thy ſelfe; he that is contented ever with what he is, makes himſelfe happy without a fortune.</p>
+            </div>
+            <div type="item">
+               <p>THinke of death as a thing certaine, (it may be) at hand: that Phyſicians dye; that Kings in this are Subjects: ſome like crude fruit are pluckt off by caſualty, others like over-ripe, drop off with age: old and young, there are graves of all ſizes: to en<g ref="char:EOLhyphen"/>deavour therefore rather to pro<g ref="char:EOLhyphen"/>cure eternall life, than to pro<g ref="char:EOLhyphen"/>long this: and uſe meanes rather to ſweeten death, then to de<g ref="char:EOLhyphen"/>ferre it.</p>
+            </div>
+            <div type="item">
+               <pb n="25" facs="tcp:42402:17"/>
+               <p>LEarne not to thinke of the things of this world as of things of continuance: and to uſe the things of this World, not as an owner, but a Stward: ſo thou wilt be neither loth to leave them, nor afraid to ac<g ref="char:EOLhyphen"/>count for them.</p>
+            </div>
+            <div type="item">
+               <p>DOe curteſies to thy friend, not with hope to receive greater: and receive curteſies of thy friend, as if thou hadſt done none: think of requiting the good which thou receiveſt, though thou deſerveſt it: ex<g ref="char:EOLhyphen"/>pect no requitall of that good which thou doeſt, though un<g ref="char:EOLhyphen"/>deſerved,
+<pb n="26" facs="tcp:42402:18"/>leſt failing of what thou expecteſt, thou repent of what thou haſt done, and ſo lo<g ref="char:EOLhyphen"/>ſeſt the praiſe of thy goodneſs, by looking after the reward of it.</p>
+            </div>
+            <div type="item">
+               <p>COmmend no man to his face, and cenſure no man behind his back: if thou know<g ref="char:EOLhyphen"/>eſt any good thing of him, tell it others: if any ill, or vice, tell it himſelfe: ſo by telling o<g ref="char:EOLhyphen"/>thers of his good parts, thou wilt procure for him a good o<g ref="char:EOLhyphen"/>pinion: and by telling him and admoniſhing him of his faults, thou wilt make him de<g ref="char:EOLhyphen"/>ſerve that good opinion.</p>
+            </div>
+            <div type="item">
+               <pb n="27" facs="tcp:42402:18"/>
+               <p>ABſtaine not onely from ill, but from the appea<g ref="char:EOLhyphen"/>rance of it, leſt thou heare ill underſervedly, or doe ill una<g ref="char:EOLhyphen"/>wares.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy diſcourſe be neither light nor unſeaſonable; ſuch as may call either thy goodneſſe in queſtion, or thy judgement: if thou canſt not ſpeake well, ſay nothing: ſo it others be not bettered by thy ſilence, yet they ſhall not bee made worſe by thy diſcourſe.</p>
+            </div>
+            <div type="item">
+               <pb n="28" facs="tcp:42402:19"/>
+               <p>THinke meanely of thine owne ſufficiency, though others thinke not ſo, look much upon thy defects, and little up<g ref="char:EOLhyphen"/>on upon thy good parts: and thinke that thou art ſhort, not only of what thou oughteſt, but of others: that that which thou knoweſt, is nothing to that of which thou art igno<g ref="char:EOLhyphen"/>rant: and therefore to labor rather truly to know thy ſelfe, than to make thoſe ſmall parts ſuperficially known to others.</p>
+            </div>
+            <div type="item">
+               <p>SCorne not to be better'd by the good example of others, and be carefull not to make o<g ref="char:EOLhyphen"/>thers
+<pb n="29" facs="tcp:42402:19"/>worſe with thine; do no<g ref="char:EOLhyphen"/>thing in which thou would' ſt not be imitated: and imitate nothing which thou knoweſt is not fit to be done; it is a fault to doe what thou ſhouldſt not, it is none, to learne what thou ſhouldſt doe of any.</p>
+            </div>
+            <div type="item">
+               <p>THinke in the morning what thou haſt to doe this day, and at night what thou haſt done: and do nothing up<g ref="char:EOLhyphen"/>on which thou maiſt not bold<g ref="char:EOLhyphen"/>ly aske Gods bleſſing: nor (as neere as thou canſt) nothing for which thou ſhalt need to ask his pardon: let thy firſt care be not to do ill: thy next care, to repent of it: account often
+<pb n="30" facs="tcp:42402:20"/>with thy ſelfe, thy laſt account will be the leſſe, bee not afraid to looke upon thy ſcore, but be afraid to encreaſe it: to deſ<g ref="char:EOLhyphen"/>paire becauſe thou art ſinfull, is to be worſe, becauſe thou haſt been ſo bad.</p>
+               <q>
+                  <l>Be thy life like his that muſt</l>
+                  <l>Account, and hath it but in truſt;</l>
+                  <l>Let the actions of thy youth</l>
+                  <l>Anſwer not the times, but truth;</l>
+                  <l>Let thy words by modeſt, few,</l>
+                  <l>Thy opinions firme, not new;</l>
+                  <l>Thy mirth plauſible, not vain,</l>
+                  <l>Not abuſive, not profane;</l>
+                  <l>Live not onely to the eie,</l>
+                  <l>Sin is ſin, though none be by;</l>
+                  <l>Witneſſes do onely prove,</l>
+                  <l>Not make guilty; and true love</l>
+                  <l>Of vertue, more eſteemes in ought</l>
+                  <l>So to be, then to be thought;</l>
+                  <l>'Tis weakneſſe to eſchew the ſcarre.</l>
+                  <l>N<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t the ulcer, and preferre</l>
+                  <pb n="31" facs="tcp:42402:20"/>
+                  <l> Eſteeme to truth; deeds muſt be</l>
+                  <l>Such as God approves, not wee;</l>
+                  <l>Be in private what you ſeem</l>
+                  <l>In publike view; and not deem</l>
+                  <l>All things lawfull, that are hid,</l>
+                  <l>Not what's ſeen, but what's forbid,</l>
+                  <l>—is unjuſt;</l>
+                  <l>And onely what we may we muſt.</l>
+               </q>
+            </div>
+            <div type="item">
+               <p>BE not wicked with advan<g ref="char:EOLhyphen"/>tage: nor be drawne to do a gainefull ſinne: not thinke that godly which is gainefull, but thinke that gaine enough which is with godlineſſe: hee that makes his commodity the meaſure of his actions, for a morſell of bread that man will tranſgreſſe.</p>
+            </div>
+            <div type="item">
+               <pb n="32" facs="tcp:42402:21"/>
+               <p>EVer learne to be contented with what thou haſt, in as much as there is nothing which by the appointment of God doth not happen unto thee: and to diſlike what God doth, is to doe what God diſlikes; and make that a ſinne, which was before but a puniſhment, and, as it might have been uſed, a bleſſing: to finde fault with God, is to make a fault in our ſelves; that which God doth may be harſh, it cannot be un<g ref="char:EOLhyphen"/>juſt: or if that ſtate which thou haſt be bad, yet that which thou hopeſt for, is better.</p>
+            </div>
+            <div type="item">
+               <pb n="33" facs="tcp:42402:21"/>
+               <p>THinke not well of thy ſelfe though others thinke ſo: yet give no occaſion to any to thinke otherwiſe, and give the glory of both to God, both of thy good parts, and their good opinion.</p>
+            </div>
+            <div type="item">
+               <p>EVery morning take leave of the things of this world, as thingking thou mayſt part with them before night: and every night to examine the imploy<g ref="char:EOLhyphen"/>ment of that day, as thinking thou mayſt account for it be<g ref="char:EOLhyphen"/>fore morning: hee that is pro<g ref="char:EOLhyphen"/>viding for his going, will leſſe increaſe his account by tarry<g ref="char:EOLhyphen"/>ing:
+<pb n="34" facs="tcp:42402:22"/>we doe not commend his providence, that hath his fur<g ref="char:EOLhyphen"/>niture to buy when hee ſhould take horſe.</p>
+            </div>
+            <div type="item">
+               <p>MAke not a neighbours fault greater to men then it is, nor thine owne leſſe to God; to excuſe thine owne ſinne is to double it: detractingly to ag<g ref="char:EOLhyphen"/>gravate anothers fault, is to make it thine own.</p>
+            </div>
+            <div type="item">
+               <p>BUfie not thy ſelfe in ſearch<g ref="char:EOLhyphen"/>ing into other mens lives; the errours of thine owne are more then thou canſt anſwer for: it more concernes thee to mend one fault in thy ſelfe, than
+<pb n="35" facs="tcp:42402:22"/>to finde out a thouſand in o<g ref="char:EOLhyphen"/>thers.</p>
+            </div>
+            <div type="item">
+               <p>BEE carefull not to fall into ſinne, being fallen, not to lie in it; being ſurpriſed, not to ſtand in it: confeſſion is ſome part of ſatisfaction; by denying a little ſinne, thou ma<g ref="char:EOLhyphen"/>keſt it great, by truly confeſ<g ref="char:EOLhyphen"/>ſing a great ſinne to God, thou makeſt it none.</p>
+            </div>
+            <div type="item">
+               <p>IF thou haſt lived long, think thou haſt the longer ac<g ref="char:EOLhyphen"/>count, thinke thou haſt had the longer time to provide for thy account, and therefore haſt the greater ſinne, if unprovi<g ref="char:EOLhyphen"/>ded;
+<pb n="36" facs="tcp:42402:23"/>where God fort eares a great while, he expects a grea<g ref="char:EOLhyphen"/>ter increaſe: as where men give long day, they expect larger payment.</p>
+            </div>
+            <div type="item">
+               <p>PErforme not the things of Religion, either out of vaine glory, or cuſtome, ſince the goodneſſe of theſe is not meaſured by what is done, but by what minde we doe it with; <hi>Curſed be hee that doth the worke of the Lord negli<g ref="char:EOLhyphen"/>gently;</hi> there is that curſe up<g ref="char:EOLhyphen"/>on negligent doing, which up<g ref="char:EOLhyphen"/>on unwilling leaving of it un<g ref="char:EOLhyphen"/>done is not; there is little dif<g ref="char:EOLhyphen"/>ference between not doing what thou ſhouldeſt, and not
+<pb n="37" facs="tcp:42402:23"/>doing it as thou ſhouldeſt; to doe thy duty for ſhew onely, or in ſhew onely, is to doe thy du<g ref="char:EOLhyphen"/>ty, and be ſtill undutifull: if that which thou doeſt be right, if the minde with which thou doeſt it be not ſo, all is wrong, and thou forfeiteſt the accepta<g ref="char:EOLhyphen"/>tion of what was good, by the ill performance.</p>
+            </div>
+            <div type="item">
+               <p>TWo things do not trou<g ref="char:EOLhyphen"/>ble thy ſelfe to know o<g ref="char:EOLhyphen"/>ther mens faults, nor other mens eſtates: the eſtate of thine owne ſoule, and the amendment of thine owne faults, let that be thy ſtudy; not thinke any ſinne leſſe becauſe it is hid: re<g ref="char:EOLhyphen"/>member that to him that ſhall
+<pb n="38" facs="tcp:42402:24"/>judge theo it is open, and that in the laſt day God will not meaſure his judgement by ours, the day of judgement will con<g ref="char:EOLhyphen"/>demne many a man whom wee have quitted.</p>
+            </div>
+            <div type="item">
+               <p>DO not practice Religion in ſhew onely, yet ſhew it in thy practice; thinke no ſin little; nor no good which thou doeſt great, it is from the ac<g ref="char:EOLhyphen"/>ceptance of God that it is good at all: hope for, but not chal<g ref="char:EOLhyphen"/>lenge a reward of thy well do<g ref="char:EOLhyphen"/>ing, yet not for it ſelfe, but for what Chriſt hath done; mea<g ref="char:EOLhyphen"/>sure thy ſelf not by what others are, but by what thou oughteſt to be: remember thy ſinnes
+<pb n="39" facs="tcp:42402:24"/>with griefe, and thy goodneſſe, the one, for that thou haſt been ſo bad, the other, that thou canſt be no better; and though thou canſt not attaine to perfe<g ref="char:EOLhyphen"/>ction on earth, yet aim at it.</p>
+            </div>
+            <div type="item">
+               <p>LAbour not onely to know what thou ſhould'ſt be (that moſt men do) but to be ſo; nor at all to know what other men are; thou ſhalt not anſwer for it: be carefull if thou canſt, to make others better by thy good counſell, or at leaſt, not to make them worſe by thy exam<g ref="char:EOLhyphen"/>ple.</p>
+            </div>
+            <div type="item">
+               <pb n="40" facs="tcp:42402:25"/>
+               <p>BE ever contented with thy preſent eſtate, but, if thou canſt, better it; doe not cor<g ref="char:EOLhyphen"/>ruptly thruſt thy ſelfe into any place; and being in, do nothing that may thruſt thee out; make the execution of thy office, a diſcharge of thy conſcience, not an improvement of thy eſtate; and deſire any place rather to do good, then to grow rich: give no bribes to procure an unjuſt thing, nor take none to doe one: and if thou art in the place of judicature, remember thy office is to give ſentence, but not ſell it.</p>
+            </div>
+            <div type="item">
+               <pb n="41" facs="tcp:42402:25"/>
+               <p>DO not make any ſinne leſſe by cuſtome: for as men do at firſt leſſe like ſinne, ſo with continuance they do leſſe feele it, as thoſe that are accu<g ref="char:EOLhyphen"/>ſtomed to carry burdens, are leſſe ſenſible of the weight: and if thou doeſt now the ſame things with more eaſe, do not thinke that the ſinne is more light, but that thou art more hardned: and thy caſe is ſo much more deſperate, by how want of ſenſe is neerer to death, than paine: feeling is an argu<g ref="char:EOLhyphen"/>ment of life, thou art a dead member if thou haſt loſt thy feling: but here's the miſery, that thou haſt loſt thy feeling
+<pb n="42" facs="tcp:42402:26"/>in regard of ſin, but not of pu<g ref="char:EOLhyphen"/>niſhment.</p>
+            </div>
+            <div type="item">
+               <p>FIx thy deſires upon ſuch things as may not ſhame thee in the obtaining; and compaſſethy deſires by ſuch meanes as may not ſhame thee to own; though that which thou ſeekeſt for be good, yet while the way by which thou ſeekeſt for it be evill, thou ſha<g ref="char:EOLhyphen"/>meſt the end by the way; and ſhameſt thy ſelfe in the end.</p>
+            </div>
+            <div type="item">
+               <p>THinke no ſinne little, and make it not great by itera<g ref="char:EOLhyphen"/>tion: what is a mountaine of earth but an accumulation of
+<pb n="43" facs="tcp:42402:26"/>many little duſts? What is a floud, but a concurrence of ma<g ref="char:EOLhyphen"/>ny little drops? a little pricke being neglected, may feſter to a Gangreen: by how much that in which thou ſinneſt is leſſe, by ſo much thy ſinne is the greater, that wouldeſt diſho<g ref="char:EOLhyphen"/>nour God for ſo little a thing.</p>
+            </div>
+            <div type="item">
+               <p>THinke of death as a thing thou muſt meet with: and of thy life, as a thing thou muſt part with: and not to love too well that life, that keepes thee from a better: nor at all to feare that death that leades thee to a better life: this life is a journey, and the World an uneaſie horſe, that with much
+<pb n="44" facs="tcp:42402:27"/>jolting, and ſome falls, brings you to your home, and why art thou unwilling to alight: love rather that paſſage that leades to eternall happineſſe than that life which keepes thee from it, and not without continuall miſery.</p>
+            </div>
+            <div type="item">
+               <p>STudy rather to make thy ſelfe fir for any imployment and place, than to thinke thy ſelfe ſo: and be preferred by thy deſert, not by purchaſe: ſlip no lawfull meanes to doe thy ſelfe good, and uſe no un<g ref="char:EOLhyphen"/>lawfull; hee which groweth great by buying, doth likely continue that greatneſſe by ſel<g ref="char:EOLhyphen"/>ling.</p>
+            </div>
+            <div type="item">
+               <pb n="45" facs="tcp:42402:27"/>
+               <p>MEaſure thy wealth by thy minde, not by thy eſtate: a contented minde is ever rich; but meaſure thy expence by thy eſtate, not by thy minde; not what thou wouldeſt do, but what thou art able to doe: thinke not frugality a diſpa<g ref="char:EOLhyphen"/>ragement, nor out-run thy ſelf to keepe pace with others: this is to procure that which thou feareſt: and leaſt thou ſhoul<g ref="char:EOLhyphen"/>deſt be thought meane, to be<g ref="char:EOLhyphen"/>come ſo; many times a ſlow pace performes that journey, whilſt galloping tires by the way.</p>
+            </div>
+            <div type="item">
+               <pb n="46" facs="tcp:42402:28"/>
+               <p>LEt thy thoughts be ſuch to thy ſelfe, as thou art not a<g ref="char:EOLhyphen"/>ſhamed to have God know them: and thy words ſuch to God, as thou art not afraid to have men hear them; and let thy whole life be ſuch toward God and man, as that thou neither diſhonour God by thy ill life, nor draw others to the ſame diſhonour of him by thy ill ex<g ref="char:EOLhyphen"/>ample.</p>
+            </div>
+            <div type="item">
+               <p>PLeaſure not thy ſelfe by wronging others: nor with the unjuſt Steward, make thee friends with other mens mo<g ref="char:EOLhyphen"/>nies: leſt while thou wouldeſt
+<pb n="47" facs="tcp:42402:28"/>buy other friends, thou ſell God; come to promotion, if thou canſt by friends, not by money: if thou deſerveſt it not, thou wrongeſt others: if thou deſerve it, thou wrongeſt thy ſelfe.</p>
+            </div>
+            <div type="item">
+               <p>THe goodneſs of the mind, is witneſſed in the out<g ref="char:EOLhyphen"/>ward actions: the goodneſſe of the outward actions, is deter<g ref="char:EOLhyphen"/>mined by the intention and minde: inward goodneſſe with<g ref="char:EOLhyphen"/>out outward ſhowes of it, is like a Tree without fruit, uſe<g ref="char:EOLhyphen"/>leſſe: and outward ſhewes of goodneſſe, without inward ſin<g ref="char:EOLhyphen"/>cerity, is like a Tree without heart, liveleſſe; that thou art
+<pb n="48" facs="tcp:42402:29"/>good inwardly in thy heart, is thine owne comfort: that thou doſt ontwardly profeſſe this goodneſſe in thy life, is o<g ref="char:EOLhyphen"/>thers benefit; thou thy ſelfe art not the better for that good neſſe which thou doſt not make ſhew of, others are not the bet<g ref="char:EOLhyphen"/>ter for that goodneſſe of which thou makeſt no ſhew: ſo in<g ref="char:EOLhyphen"/>ward ſincerity is required in re<g ref="char:EOLhyphen"/>ſpect of God, outward profeſ<g ref="char:EOLhyphen"/>ſion only in reſpect of men: by the firſt thou art a true Chriſtian; by the other it doth appeare that thou art ſo</p>
+            </div>
+            <div type="item">
+               <pb n="49" facs="tcp:42402:29"/>
+               <p>NEither undertake much, nor talke much, and that to the purpoſe; deliver thy minde rather in profitable lan<g ref="char:EOLhyphen"/>guage, than curious; by this, happily, thou wilt gaine more applauſe, but by the other thou wilt doe more good, and it is a greater vertue to do well, than to hear well.</p>
+            </div>
+            <div type="item">
+               <p>DO nothing which thou diſ<g ref="char:EOLhyphen"/>alloweſt; diſallow thy ſelf ſome things which thou maieſt doe, but nothing which thou oughteſt to doe: give no liber<g ref="char:EOLhyphen"/>ty to thy ſelſe in unlawfull things: uſe not the utmoſt
+<pb n="50" facs="tcp:42402:30"/>of that liberty which is given thee in other things; and ſo uſe thy liberty in what thou art permitted, as that they may not hinder thee in the things thou art commanded.</p>
+            </div>
+            <div type="item">
+               <p>PRomiſe nothing which may prejudice thee in perfor<g ref="char:EOLhyphen"/>mance; performe what thou haſt promiſed, though to thy prejudice; thinke thy ſelfe bound by thy word, though without oath or witneſſe: if thou art not well able to per<g ref="char:EOLhyphen"/>form, conſider thou wert able not to promiſe: a good man meaſures his promiſes by his ability, but hee meaſures his performance by his promiſe.</p>
+            </div>
+            <div type="item">
+               <pb n="51" facs="tcp:42402:30"/>
+               <p>ACcount it the greateſt knowledge truly to know thy ſelſe; and the greateſt con<g ref="char:EOLhyphen"/>queſt to ſubdue thy ſelfe: not give way to thine owne luſts; not boaſt of thine owne parts: to doe nothing that is ill, nor vainegloriouſly to tell of what thou doeſt well: in all things to approve thy ſelfe a good man and a Chriſtian, but not boaſt of it.</p>
+            </div>
+            <div type="item">
+               <p>PLace not Religion in talke only, it is an eaſier matter to give counſell, than to follow it: ſometimes we have known men to fall into thoſe ſinnes
+<pb n="52" facs="tcp:42402:31"/>from which they have with great paines converted others: but Chriſtianity (as we ſay of charity) begins at home; it was <hi>Chriſt</hi>'s to S. <hi>Peter, Art thou converted? ſtrengthen the Brethren,</hi> but firſt bee conver<g ref="char:EOLhyphen"/>ted himſelfe; he may happily ſave others that is not ſaved himſelfe, yet hee will ſooner ſave another that goes in the way of ſalvation himſelf: good Doctrine is weakned much with ill life; hee that will doe good upon others, muſt firſt be good himſelf.</p>
+            </div>
+            <div type="item">
+               <p>SPeake nothing which thou would'ſt wiſh to recall: and do nothing which thou ſhalt
+<pb n="53" facs="tcp:42402:31"/>need to repent: condemne no<g ref="char:EOLhyphen"/>thing in a humour; nor main<g ref="char:EOLhyphen"/>taine nothing out of faction; never defend a falſe cauſe, ei<g ref="char:EOLhyphen"/>ther to revenge a wrong, or to do a pleaſure.</p>
+            </div>
+            <div type="item">
+               <p>THinke onely the preſent time thine, for that which is paſt is none of thine: and that which is to come, it is a queſtion whether ever it ſhall be thine: ſo the certaine time of thy life is very little, and the account which thou ſhalt cer<g ref="char:EOLhyphen"/>tainely give of this life very great; and thy account is made greater by tarrying, but thy life leſſe; ſo that to put off the finiſhing of this account, till
+<pb n="54" facs="tcp:42402:32"/>a farther time, is to make thy ſelfe a greater account, and have leſſe time to doe it in; nay thou ſhalt anſwer for the neglect of that time wherein it might have beene done, and it may bee denied another time to doe it.</p>
+            </div>
+            <div type="item">
+               <p>MEaſure not goodneſſe by good words onely, a Par<g ref="char:EOLhyphen"/>rat may bee taught to ſpeake well; good words coſt us no<g ref="char:EOLhyphen"/>thing; and men are for that Re<g ref="char:EOLhyphen"/>ligion that is cheapeſt: it is an eaſie matter to ſpeake like a Chriſtian: Satan himſelf can talke Scripture: Charity con<g ref="char:EOLhyphen"/>ſiſts not barely in knowing, or diſcourſing of what is good,
+<pb n="55" facs="tcp:42402:32"/>but in practiſing what wee doe know; in religion not to doe as thou ſayeſt, is to unſay thy religion in thy deeds.</p>
+            </div>
+            <div type="item">
+               <p>EVer expect death, though not wiſh for it; let thy laſt houre find thee rather willing to goe, than contented to tar<g ref="char:EOLhyphen"/>ry; put not off amendment till another day, thou art not ſure to ſee an end of this; pro<g ref="char:EOLhyphen"/>vide that thy death bed amy ra<g ref="char:EOLhyphen"/>ther finde thee fitted for God, than fit thee; and ſo order thy eſtate, and thy ſoule in thy health, that when death comes thy mayeſt have nothing to doe but to die.</p>
+            </div>
+            <div type="item">
+               <pb n="56" facs="tcp:42402:33"/>
+               <p>IN point of reformation, firſt plucke out thy owne More: ſpend not thy time in exhorting others to the keep<g ref="char:EOLhyphen"/>ing of the Commandements, and breake them thy ſelfe; meaſure not thy goodneſſe by anothers want of it: nor mea<g ref="char:EOLhyphen"/>ſure thy want of goodneſſe by others ſtore of it; God doth not ſo: though thou art not ſo good as the beſt, yet while thou endeavoureſt to be ſo, thou art good enough; God who workes in us both to will and to do, doth in ſome caſe accept the will for the deed.</p>
+            </div>
+            <div type="item">
+               <pb n="57" facs="tcp:42402:33"/>
+               <p>REckon nothing which thou haſt, thine owne; nor nothing which thou doeſt, at thine owne diſpoſing: and uſe all, not as a Maſter, but a ſer<g ref="char:EOLhyphen"/>vant, remembring thou muſt one day anſwer for them to their Maſter.</p>
+            </div>
+            <div type="item">
+               <p>DO not murmure at thy condition, if mean; nor meaſure Gods bleſſings by thy wants, but by thy deſerts: if God be better to others then he is to thee, yet while he is better to thee than thou deſerveſt, hee is good enough.</p>
+            </div>
+            <div type="item">
+               <pb n="58" facs="tcp:42402:34"/>
+               <p>IN Chriſtianity, not, thinke to attaine the end without the meanes; and if the ſame meanes doe not in all produce the ſame effect, not to impute it to any alteration or deficien<g ref="char:EOLhyphen"/>cy in the meanes; but in the ſubject: the means is the ſame, the parties are not: all men are not alike hardned in ſin, there<g ref="char:EOLhyphen"/>fore all are not alike hard, or eaſie to bee converted; ſinnes are compared to diſeaſes; all diſeaſes are not mortall, ſome humours ſpend themſelves, o<g ref="char:EOLhyphen"/>thers are not recovered, but with expence and danger; and the ſame ſickeneſſe is not remo<g ref="char:EOLhyphen"/>ved with the ſame eaſe in bo<g ref="char:EOLhyphen"/>dies,
+<pb n="59" facs="tcp:42402:34"/>becauſe there is not in all the ſame temper: that phyſick doth but ſtirre the humour in ſome bodies, which in others would utterly expell it: it is with the ſickneſſe of the ſoule, as of the body, all ſinnes are not equall; all men are not e<g ref="char:EOLhyphen"/>qually ſinnefull: either the ſins may be leſſe, or of leſſe conti<g ref="char:EOLhyphen"/>nuance: for cuſtome, as it be<g ref="char:EOLhyphen"/>gets a greater liking of ſinne, ſo it leaves a deeper root; con<g ref="char:EOLhyphen"/>tinuation of things makes them partly naturall, therefore wee call cuſtome another nature; ſetled impieties, like ſet led hu<g ref="char:EOLhyphen"/>mours doe not eaſily ftirre; though the means are the ſame, yet while the ſubjects is not; it is no wonder that the effects are
+<pb n="60" facs="tcp:42402:35"/>not: there muſt bee the ſame diſpoſition of the matter, as well as of the agent: it is nor enough that the word bee the ſame, if the hearers be not; as as the ſame phyſicke doth not worke or cure alike, nor the ſame ſeed thrive alike in all grounds, ſo neither doth the ſame word ſave alike, or pre<g ref="char:EOLhyphen"/>vaile alike withall. <hi>Sodome</hi> would have repented with thoſe meanes which <hi>Corazin</hi> did not; in thine impeniten<g ref="char:EOLhyphen"/>cy therefore not to accuſe God or the meanes, but thine owne ſelfe; in thy converſion, not to thanke thine owne ſelfe, or the means, but God, and the meanes under God.</p>
+            </div>
+            <div type="item">
+               <pb n="61" facs="tcp:42402:35"/>
+               <p>REnember that as there is <gap reason="illegible: faint" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e death which thou muſt prepre to meet, ſo there is a<g ref="char:EOLhyphen"/>nother death which thou muſt ſtudy to avoid, the death of the ſoule; the naturall death con<g ref="char:EOLhyphen"/>ſiſts in the diſſolution of the ſoule from the body, the ſpiri<g ref="char:EOLhyphen"/>tuall death, in the diſſolution of the ſoule from God: and one day, of ſoule and body from God, which is the ſecond death: now as wee ſay of the naturall body, that the way to be young long, is to be old betimes; ſo the way to live not long, but ever, is to die betimes; if thou die but once while thou liveſt, the death of ſinne; thou ſhalt
+<pb n="62" facs="tcp:42402:36"/>live eternally after tou art dead.</p>
+            </div>
+            <div type="item">
+               <p>LOve nothing in this world too well, no not thy ſelfe; thinke of the pleaſures of this World, either as ſinnes or oc<g ref="char:EOLhyphen"/>caſions of it; and the other more neceſſary things of it; though they have thy preſence, let them not have thy heart; and uſe them rather becauſe thou wanteſt them, than be<g ref="char:EOLhyphen"/>cauſe thou likeſt them: and ſo provide, that thy death may be the beginning of thy happi<g ref="char:EOLhyphen"/>neſſe, not the end of it.</p>
+               <q>
+                  <pb n="63" facs="tcp:42402:36"/>
+                  <l>Ever ſuſpect, ever feare</l>
+                  <l>For to be too happy here;</l>
+                  <l>Left in heaven thou have leſſe,</l>
+                  <l>(If any) for this happineſſe;</l>
+                  <l>Seldome haue I known</l>
+                  <l>To have Heavens more then one;</l>
+                  <l>All the pleaſures of this life</l>
+                  <l>They are uſefull, but a knife:</l>
+                  <l>I may warme me by their fire,</l>
+                  <l>But take heed of comming nigher;</l>
+                  <l>Yet in this is danger ſtill,</l>
+                  <l>He that warmes, is after chill;</l>
+                  <l>Oh JEHOVAH, but with thee,</l>
+                  <l>Is there true felicity,</l>
+                  <l>All this ſublunary treaſure</l>
+                  <l>Yeeld but counterfeit of pleaſure;</l>
+                  <l>Silken cares, Kings of clouts;</l>
+                  <l>Full of torments, feares, and doubts;</l>
+                  <l>Trifles, dangers, baited books,</l>
+                  <l>Sha dowes, onely ſhape and looks,</l>
+                  <l>Of what we call: worſe than naughts?</l>
+                  <l>Snares; temptation, if not faults;</l>
+                  <l>Whether it be birth, or place;</l>
+                  <l>Beauty, and the pride of face;</l>
+                  <l>Honour; wealth, or higher yet,</l>
+                  <l>That they call a favourite;</l>
+                  <l>Like a ſhadow on the Sun,</l>
+                  <l>Have their being, and are done,</l>
+                  <l>From anothers like or frown;</l>
+                  <l>So they riſe, and ſo go down;</l>
+                  <pb n="64" facs="tcp:42402:37"/>
+                  <l> They are got and kept with feares;</l>
+                  <l>And are parted with, with teares;</l>
+                  <l>And accounted for with borror,</l>
+                  <l>And then <hi>Dives</hi> is the poorer;</l>
+                  <l>When the finall day ſhall come;</l>
+                  <l>(A dreadfull day indeed to ſome)</l>
+                  <l>And we anſwer for their uſe.</l>
+                  <l>Then to want them we would chooſe;</l>
+                  <l>So then much of theſe to aske,</l>
+                  <l>Is to beg thy ſe<gap reason="illegible: blotted" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>f a taske,</l>
+                  <l>A beggery, for thus to be</l>
+                  <l>Is the greateſt poverty:</l>
+                  <l>All thou haſt is on the ſcore,</l>
+                  <l>What is that but to be poore?</l>
+                  <l>Adde to this, it doth not laſt;</l>
+                  <l>And happineſſe is torment, paſs't.</l>
+                  <l>It may be preſent, ſo thy hoſt</l>
+                  <l>Is but may be at the moſt:</l>
+                  <l>In Heaven onely is there bliſſe,</l>
+                  <l>That ever ſhall be, ever is;</l>
+                  <l>Worldly laughter is not mirth,</l>
+                  <l>Born and buried in the birth;</l>
+                  <l>Where O God there wants thy grace</l>
+                  <l>Mirth is only in the face,</l>
+                  <l>O God thou art, only thou,</l>
+                  <l>To morrow, yeſterday, and now;</l>
+                  <l>To thee my ſelf, my time I give,</l>
+                  <l>All that I have, all that I live,</l>
+               </q>
+            </div>
+            <div type="item">
+               <pb n="65" facs="tcp:42402:37"/>
+               <p>DEliberately to move to a<g ref="char:EOLhyphen"/>ny buſineſſe is proper to man: headily to be carried by deſired, is common to beaſts; in civill actions be led by thy reaſon, not by thy appetite; in divine action, by Religion; and doe nothing that may for<g ref="char:EOLhyphen"/>feit either thy reaſon or thy honeſty: meaſure the good<g ref="char:EOLhyphen"/>neſſe of things by their lawful<g ref="char:EOLhyphen"/>neſſe not by their profit; nor be drawne to doe ill for advan<g ref="char:EOLhyphen"/>tage: not intend thy particu<g ref="char:EOLhyphen"/>lar good, with the forfeiture of the genreall.</p>
+            </div>
+            <div type="item">
+               <pb n="66" facs="tcp:42402:38"/>
+               <p>IN religion publiſh nothing which thou dateſt not ſtand to; nor libell againſt the truth: if thou think it is not the truth, why doeſt thou publiſh it? if thou thinkeſt it is the truth, why art thou aſhamed of it? ſuch are between two rocks, either of which ſplits them; for either they ſinne in publi<g ref="char:EOLhyphen"/>ſhing that which is a lye; or elſe having publiſhed it, they ſin in being aſham'd or afraid to ſtand to it, which they think is the truth: true Gold flies not the Touchſtone, a good mans actions are ſuch as hee feares not to be diſcovered; it is a ſigne their workes are ill,
+<pb n="67" facs="tcp:42402:38"/>when they dare not own them; <hi>Oderunt lucem,</hi> is our Saviours note of ſuch; if it be the truth, they ought not onely (in ſome caſe) to owne it, but to die in it: if it be a lye, they ought not to live in it, much leſſe to give it life: every lye is a ſinne, but to print a lie, is to juſtifie a ſinne; and in Religion to print a lie for truth, is to father a lie upon God: a good man will publiſh nothing in God's name, to which he dares not ſet his own.</p>
+            </div>
+            <div type="item">
+               <p>MEaſure not thy ſelfe by what men ſay of thee; they may miſtake thee; it is their ſinne, not thine if others
+<pb n="68" facs="tcp:42402:39"/>ſlander thee: to bee ill ſpoken of, and undeſer vedly, is nei<g ref="char:EOLhyphen"/>ther thy fault, nor alone thy caſe; <hi>Chriſt</hi> himſelfe was thought a Wine bibber: and Saint <hi>Paul</hi> mad: if ill tongues could make men ill, good men were in ill taking; never re<g ref="char:EOLhyphen"/>gard what any can ſay againſt thee, but thine owne conſci<g ref="char:EOLhyphen"/>ence: though all the World condemne thee, while God and thy ſelfe doe not, thou art in<g ref="char:EOLhyphen"/>nocent enough: the wicked<g ref="char:EOLhyphen"/>neſſe of ill tongues doth but dirt themſelves; the mire that is caſt upon thee is not thine; care not to have ill men ſpeake well of thee; it may be if thou wert worſe, thou wouldeft hear better: <hi>Parcit cognatis maculis
+<pb n="69" facs="tcp:42402:39"/>ſimilis fera:</hi> the Devill doth not accuſe his owne: if thou wert one if them they would ſpeake more favourably: bee carefull to bee cleane to God, what ever thou art to the world, and bee ſlow in ſoyling and blacking others: if they are not ſo cleane as thou could'ſt wiſh, their foulneſſe bee to themſelves: let them bee never the fouler for thy mouth: they that are forward in cenſuring and accuſing others, are uſually ſuch themſelves.</p>
+            </div>
+            <div type="item">
+               <p>TO all thy promiſes need no other bond but thy word: nor no other witneſſe but God: be carefull never to
+<pb n="70" facs="tcp:42402:40"/>promiſe any thing of which thou ſhalt wiſh to be forgiven the performance: nor plead either want of ability or teſti<g ref="char:EOLhyphen"/>mony: an honeſt man doth not promiſe more than he meanes: nor a wiſe man more than hee is able.</p>
+            </div>
+            <div type="item">
+               <p>BE not a ſervant to thoſe things which thou ſhoul<g ref="char:EOLhyphen"/>deſt command; thy mony, thy body, and thy appetite, or thy ſenſitive part: but uſe thy e<g ref="char:EOLhyphen"/>ſtate, to ſerve thy body, and thy occaſions, and thy body to be ſubſervient to thy ſoule; and thy ſoule to ſerve God: thus while either of theſe ſerve in their proper office, God is
+<pb n="71" facs="tcp:42402:40"/>ſerv'd in all: if thou art com<g ref="char:EOLhyphen"/>manded by the firſt of theſe, thou art neither thine owne Maſter, nor fit to be God's ſer<g ref="char:EOLhyphen"/>vant.</p>
+            </div>
+            <div type="item">
+               <p>REſolve nothing but upon good ground, nor alter thy reſolution but upon good rea<g ref="char:EOLhyphen"/>ſon; not inconſtantly to wa<g ref="char:EOLhyphen"/>ver, nor obſtinately to perſe<g ref="char:EOLhyphen"/>vere in things; to heare others judgements beſides thine own, and if right, to ſubmit to them; not to thinke it a diſparage<g ref="char:EOLhyphen"/>ment, that there are wifer than thy ſelfe: to thinke it a fault rather to ſtand in an errour, than to fall into one, not chooſe to defend a lie, rather
+<pb n="72" facs="tcp:42402:41"/>than deſcend to yeeld to others it that which is the truth: to maintaine an opinion becauſe it is thine, not becauſe it is true, is to maintaine thy ſelfe, not the truth; and to prefer thy ſelfe to the truth.</p>
+            </div>
+            <div type="item">
+               <p>SO farre intend thy profit as that thou ſtill ſubject it to your religion; not make thy commodity the ſterne of the conſcience; he was not the beſt Diſciple that had the bag; ſo procure or continue to thy ſelf a place upon earth, as that thou loſe not thy place in heaven.</p>
+            </div>
+            <div type="item">
+               <pb n="73" facs="tcp:42402:41"/>
+               <p>LEarne not to examine thy ſelfe by what thou art not; as the Phariſee, not like other men; and while ſome others are worſe, to thinke thou art well enough: wee meaſure crooked things by that which is ſtraight, not by that which is more crooked: the rule of goodneſſe is Gods Word, not other mens deeds: not to mea<g ref="char:EOLhyphen"/>ſure the ſtraightneſſe of thy life, by the crookedneſſe of anothers: hee that meaſures his beauty by anothers defor<g ref="char:EOLhyphen"/>mity, may ſtill be unhandſome enough: if a Drunkard ſhall meaſure himſelfe by ſome de<g ref="char:EOLhyphen"/>bauchedneſſe, hee will ſeeme a
+<pb n="74" facs="tcp:42402:42"/>ſober man: in the day of judge<g ref="char:EOLhyphen"/>ment, God will not examine thee by what others were, but by what thou wert commanded to be.</p>
+            </div>
+            <div type="item">
+               <p>PLead not for licenciouſneſs of life, under liberty of con<g ref="char:EOLhyphen"/>ſcience; as if Chriſtian liber<g ref="char:EOLhyphen"/>ty conſiſted in doing what they lift: or that Chriſt hath ſo freed thee from the yoke of the Law, as that thou art not ſtill ſubject to the commande<g ref="char:EOLhyphen"/>ments; not thinke that Chriſt was therefore obedient unto the death, that thou ſhouldeſt be tyed to no obedience of any thing during life; that the me<g ref="char:EOLhyphen"/>rits of our Redeemer hath ob<g ref="char:EOLhyphen"/>tain'd;
+<pb n="75" facs="tcp:42402:42"/>not that the Comman<g ref="char:EOLhyphen"/>dements of God ſhould not ſtil be obſerved; but that tho not ſufficient obſerving of them, ſhould not be imputed.</p>
+            </div>
+            <div type="item">
+               <p>MAke not other mens ſinnes thine by imitating them; nor thine, other mens, by teaching of them, doe nothing in which thou wouldeſt not be followed; follow nothing of which thou canſt not well juſti<g ref="char:EOLhyphen"/>fie the doing.</p>
+            </div>
+            <div type="item">
+               <p>AFfect not too much bu<g ref="char:EOLhyphen"/>ſineſſe, eſpecially other mens; yet to hate idleneſſe: to uſe recreations, but not
+<pb n="76" facs="tcp:42402:43"/>dwell in them: to affect rather what is needfull than curious; not to overdoe; and in all theſe things to ſuffice nature, not hu<g ref="char:EOLhyphen"/>mor it.</p>
+            </div>
+            <div type="item">
+               <p>BE ſlow in chooſing a friend, but ſlower in changing him when thou haſt choſen: bee courteous to all, but inward on<g ref="char:EOLhyphen"/>ly with a few: thou maieſt uſe that freedom to a friend, which thou wilt not to every acquain<g ref="char:EOLhyphen"/>tance: thy acquaintance is but thy neighbour, but thy friend is thy ſelfe.</p>
+            </div>
+            <div type="item">
+               <pb n="77" facs="tcp:42402:43"/>
+               <p>SCorne no man for his mean<g ref="char:EOLhyphen"/>neſs, and humour no man for his wealth; doe nothing to pleaſe any whereby thou ſhalt diſpleaſe God: never be drunk to pleaſe the company, or think it uncivility to part ſober: or to ceaſe to be a good Chriſtian, that thou maieſt be thought a good companion.</p>
+            </div>
+            <div type="item">
+               <p>BE diſpleaſed with nothing which God doth, and as neere as thou canſt, doe nothing wherewith God is diſpleaſed, doe all thou doeſt as in Gods preſence, and ſpeake all as in his audience; and let neither
+<pb n="78" facs="tcp:42402:44"/>thy words nor actions be ſuch, as to which thou maieſt wil<g ref="char:EOLhyphen"/>lingly deſire Gods abſence, or not deſire his aſſiſtance.</p>
+            </div>
+            <div type="item">
+               <p>IT is the goodneſſe of God to us, that is the cauſe of the love of God to us: and it is the goodneſſe of God in us, that is the cauſe of the love of God in us: confeſſe that the good which thou re<g ref="char:EOLhyphen"/>ceiveſt is not for thine owne ſake, nor the good which thou doeſt is not by thine own pow<g ref="char:EOLhyphen"/>er; it is the mercy of God that mooves him to do for us; that inables us to doe that which pleaſeth him.</p>
+            </div>
+            <div type="item">
+               <pb n="79" facs="tcp:42402:44"/>
+               <p>ACcount that good which is lawfull, not which is profitable: and endeavour ra<g ref="char:EOLhyphen"/>ther to ſerve God then thine owne turne in all; make theſe two the rule of thy ſelfe, juſtice and godlineſſe, and thou ſhalt fulfill the duties of both Ta<g ref="char:EOLhyphen"/>bles, God and thy neighbour.</p>
+            </div>
+            <div type="item">
+               <p>NOt repiningly to complain of thy ſufferings of this life: ſince it is partly in thy power to make them bleſſings: and if to make them bleſſings be in thine own power, then that they are otherwiſe it is thy owne fault: God intends
+<pb n="80" facs="tcp:42402:45"/>amendment in it, if it doe not amend thee, thou makeſt it a puniſhment, not be.</p>
+            </div>
+            <div type="item">
+               <p>LAbour to ſee thy own mor<g ref="char:EOLhyphen"/>tality in other mens deaths: and thy owne frailty in other mens ſinnes; and ſince thou muſt ſhortly die, bee afraid to ſinne: and ſo order thy ſinnes, as thou mayeſt not be afraid to die, that thy ſinnes doe not bring thee to a worſe death, and that this death may lead thee to a better life.</p>
+            </div>
+            <div type="item">
+               <p>DOe what thou art comman<g ref="char:EOLhyphen"/>ded, not what others doe: make no mans example a rule,
+<pb n="81" facs="tcp:42402:45"/>not the beſt mans: all may erre: and be that in all things followes him that may erre, will be ſure in ſome things to fall into errour.</p>
+            </div>
+            <div type="item">
+               <p>CAll to minde often what thou haſt done: and then compare with it what thou haſt ſuffer'd, and what thou haſt re<g ref="char:EOLhyphen"/>ceived: and when thou ſhalt finde, that thou haſt received more good than thou haſt done, and haſt done more e<g ref="char:EOLhyphen"/>vill than thou haſt ſuffered: fear that there is leſſe good be<g ref="char:EOLhyphen"/>hind for thee, and more evill: and therefore betake thee to re<g ref="char:EOLhyphen"/>pentance and a new life: and by that thou mayeſt prevent
+<pb n="82" facs="tcp:42402:46"/>the evill which thou haſt deſer<g ref="char:EOLhyphen"/>ved to ſuffer, and procure to thy ſelfe, though not deſerved, a reward of that good which thou haſt done.</p>
+            </div>
+            <div type="item">
+               <p>LEt it not trouble thee that ſome others have liv'd lon<g ref="char:EOLhyphen"/>ger than thy ſelfe; not the length of thy life, but the goodneſſe is the meaſure of thy happineſſe: if thou haſt lived well, thou haſt lived long e<g ref="char:EOLhyphen"/>nough; if thou haſt not lived well, thou haſt lived too long.</p>
+            </div>
+            <div type="item">
+               <p>NEver thinke it too ſoon to repent, thou doeſt not know how ſoone thou mayeſt
+<pb n="83" facs="tcp:42402:46"/>die, and after death it it too late: hee that puts off his a<g ref="char:EOLhyphen"/>mendment with hope of living, loſeth eternall life in a pre<g ref="char:EOLhyphen"/>ſumption of this.</p>
+            </div>
+            <div type="item">
+               <p>INtend rather the effecting of a publike good, than a particular, for by intending only thy particular good, thou mayeſt doe wrong to the pub<g ref="char:EOLhyphen"/>like, whereas thou canſt not effect a publike good without thine owne good in particular; for what ever is beneficiall to the whole, cannot be prejudici<g ref="char:EOLhyphen"/>all to the parts: ſo then thou being a member of the whole in performing a generall good, even by that thou art ſo farre
+<pb n="84" facs="tcp:42402:47"/>good to thine owne particular, as thou haſt an intereſt in the generall; whereas by ſeeking thy private good with the neg<g ref="char:EOLhyphen"/>lect of the publike, thou doeſt both decline from the common nature of things and from the nature of goodneſſe, which is by ſo much the more good, by bow much it is good to more, and doſt rather that, which is good to thee, then what is tru<g ref="char:EOLhyphen"/>ly good in it ſelfe: this is to make thine owne ſelfe and thy advantage the rule of goodneſs, that thou ſhould'ſt make good<g ref="char:EOLhyphen"/>neſſe the rule of thy ſelf and thy actions.</p>
+            </div>
+            <div type="item">
+               <pb n="85" facs="tcp:42402:47"/>
+               <p>THinke that in death thou doeſt not loſe a life, but exchange one; death is but a change; and therefore not to feare a change, that art every day ſo acquainted with chan<g ref="char:EOLhyphen"/>ges; every change is a kinde of death, in as much as that which it changeth from, doth die to what it was: if the beaſts and creatures themſelves did not change from what they are, how ſhould wee bee fed? Nay, if their skinnes and cloa<g ref="char:EOLhyphen"/>thing did not change from its naturall uſe to them, how could it be uſefull to us: if the Sunne his ſelfe did not change his place; if the Yeare, and
+<pb n="86" facs="tcp:42402:48"/>the parts of the Yeare, did not change, how ſhould we ei<g ref="char:EOLhyphen"/>ther have life or neceſſaries? thou then that doeſt thus ſub<g ref="char:EOLhyphen"/>ſiſt by changes, why doeſt thou feare a change? eſpecially con<g ref="char:EOLhyphen"/>ſidering that other things be<g ref="char:EOLhyphen"/>ing ever altering in them<g ref="char:EOLhyphen"/>ſelves, doe yet ever continue alterable; whereas wee chan<g ref="char:EOLhyphen"/>ging but once, and for the bet<g ref="char:EOLhyphen"/>ter, ſhall ever after remaine immutable: ſo that to bee loath to change, is to contra<g ref="char:EOLhyphen"/>dict what thou doſt: to feare a change, and yet love a life that is full of changes.</p>
+            </div>
+            <div type="item">
+               <pb n="87" facs="tcp:42402:48"/>
+               <p>IF God hath made thee handſome, let not that make thee proud: beauty is an or<g ref="char:EOLhyphen"/>nament, doe not thou make it a ſnare: why ſhouldeſt thou have cauſe to wiſh that thou hadſt been ill favoured: ſhew nothing naked of thy ſelfe to o<g ref="char:EOLhyphen"/>thers but thy face, and that onely that thou mayeſt bee knowne, not ſeen: be courte<g ref="char:EOLhyphen"/>ous to all but not familiar: ſtay not to heare thy handſom<g ref="char:EOLhyphen"/>neſſe prais'd: much leſſe to praiſe it: thinke no time ſo ill ſpent about thy ſelfe, as in dreſſing: nor no money, as in faſhions, yet in neither bee ri<g ref="char:EOLhyphen"/>diculous, allow for both: ac<g ref="char:EOLhyphen"/>knowledge
+<pb n="88" facs="tcp:42402:49"/>no beauty in thy ſelfe, but of the minde, nor ſtrive for none: if God have made thee beautifull in others eyes, let it be thy care to make thy ſelſe ſo in his: beauty without grace, is the greateſt deformity.</p>
+            </div>
+            <div type="item">
+               <p>IN Gods houſe and buſineſſe forget thine owne: be there as a member of the Church, not of the Common-wealth: empty thy ſelfe of this world, thou art converſant in the next: let all thy ſenſes have no other object but God: let thy eares be open, but thy eyes ſhut: if anothers beauty draw thy eyes from God, that beauty is be<g ref="char:EOLhyphen"/>come
+<pb n="89" facs="tcp:42402:49"/>thy deformity, and hath turn'd God's eyes from thee.</p>
+            </div>
+            <div type="item">
+               <p>LOve no woman but a wife, and uſe no familiarity with her, but in publike: thou knoweſt not whither it may grow; many have thought no hurt in the beginning of thoſe things that after have procee<g ref="char:EOLhyphen"/>ded to impiety; and in all thy behaviour, examine not what thou doeſt, but with what minde thou doeſt it, elſe that which happily in it ſelfe was indifferent, is to thee unlaw<g ref="char:EOLhyphen"/>full: to a good mind, all com<g ref="char:EOLhyphen"/>pany is ſafe, and all familiarity is ſafe.</p>
+               <q>
+                  <pb n="90" facs="tcp:42402:50"/>
+                  <l>'Tis the mind that makes a fault,</l>
+                  <l>Elſe ſuch things would not be naught;</l>
+                  <l>He that can (and is no ly<gap reason="illegible: faint" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>)</l>
+                  <l>Sport and talke without a fire;</l>
+                  <l>Can be courteous, can be kind,</l>
+                  <l>And not kindle in his mind;</l>
+                  <l>And can touch a womans skin</l>
+                  <l>As his own, not ſtir within:</l>
+                  <l>Doth ſalute without delight,</l>
+                  <l>And more would not, if he might,</l>
+                  <l>Nor ſcarce that; whom thus to bill</l>
+                  <l>Manners treacheth, not his will:</l>
+                  <l>Nor with hand, nor lip, nor eye,</l>
+                  <l>Doth commit aduliery;</l>
+                  <l>But ſee and ſalute each other</l>
+                  <l>Woman as he doth his mother;</l>
+                  <l>As the Nurſes harmeleſſe kiſſe</l>
+                  <l>To her child is, ſuch is his,</l>
+                  <l>Without pleaſure, without taſte,</l>
+                  <l>With a minde, a thought as chaſte</l>
+                  <l>As Turtle; till thy minde be ſuch,</l>
+                  <l>Do nor look, nor ſport, nor touch,</l>
+                  <l>Or at leaſt till this thou can,</l>
+                  <l>Sport, and talk, and play with man;</l>
+                  <l>Not with woman, for <gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>f fair,</l>
+                  <l>Thou wilt findk, or make a ſnare;</l>
+                  <l>Nay, although thy minde be ſuch,</l>
+                  <l>Do not toy, nor ſport, nor touch;</l>
+                  <l>For although thy thoughts be good,</l>
+                  <l>Yet thoughts are not underſtood</l>
+                  <pb n="91" facs="tcp:42402:50"/>
+                  <l> But by actions; ſo therein</l>
+                  <l>May be ſcandall, if not ſin:</l>
+                  <l>Who exactneſſe will fulfill,</l>
+                  <l>Muſt forbeare things ſeeming ill,</l>
+                  <l>Not that are, but might have been,</l>
+                  <l>Or that may be conſtrued ſin:</l>
+                  <l>Men judge thee ill or innocent,</l>
+                  <l>By what's ſeen, not what is meant:</l>
+                  <l>Then untill all mindes be ſuch</l>
+                  <l>Think a look, a ſmile to much.</l>
+               </q>
+            </div>
+            <div type="item">
+               <p>LOve thy neighbour as thy ſelfe in the kinde, unfai<g ref="char:EOLhyphen"/>nedly; but love thy friend as thy ſelfe in the degree: doe as much as thou canſt, but love more then thou canſt doe; hee that doth but little for his friend, becauſe his ability is ſo, loves more, than hee which doth much, but leſſe than he is able.</p>
+            </div>
+            <div type="item">
+               <pb n="92" facs="tcp:42402:51"/>
+               <p>REvenge no injury though thou canſt; and requite every courteſie if thou canſt: yet ſhew that thou art willing to requite a courteſie where thou art able: and ſhew that thou art able to revenge a wrong (if thou canſt) though thou art not willing; ſo by ſhewing that thou couldſt re<g ref="char:EOLhyphen"/>venge this, thou wilt happily prevent another; and by not revenging it thou wilt prove thy ſelfe better then thou ſhewſt; for to revenge a wrong done is to doe a wrong to God; ſo thou wilt be guilty of doing that which thou com<g ref="char:EOLhyphen"/>plaineſt of, and therefore un<g ref="char:EOLhyphen"/>juſtly
+<pb n="93" facs="tcp:42402:51"/>complaineſt of that which thou thy ſelfe doeſt.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy conceit of thy ſelfe be low, but thy deſires high, even as high as heaven; thinke thy ſelfe not worthy of the leaſt good, yet by the grace of God capable of the greateſt: thinke often upon Chriſts death, it will ſweeten thine; and account it his, he accounts it ſo: he died not for himſelf, but for thee, and if thou live not to thy ſelfe, but to him, then he lives not for himſelfe neither, but for thee, to make thee partaker of eternall life, which already thou haſt in the certainty, though not in the
+<pb n="94" facs="tcp:42402:52"/>fruition, and believeſt all this and more, very humbly, but very confidently.</p>
+            </div>
+            <div type="item">
+               <p>THat thou mayeſt avoid ſin, avoid the occaſion of it as he that complaines of heate removes farther from the fire: omit no opportunity of doing good: and doe no evill though thou haſt opportunity, it is a greater commendations of thy goodneſſe, that thou mighteſt and wouldſt not.</p>
+            </div>
+            <div type="item">
+               <p>MEditate often upon thy death, thou wilt like it the better: and often upon the next life, thou wilt like this
+<pb n="95" facs="tcp:42402:52"/>the worſe: thinke of this World as a thing in truſt, and provide to diſcharge it: ac<g ref="char:EOLhyphen"/>count nothing thine owne but as being ſhortly to give an ac<g ref="char:EOLhyphen"/>count of it to the right ow<g ref="char:EOLhyphen"/>ner.</p>
+            </div>
+            <div type="item">
+               <p>BE not angry without cauſe, be merry without offence: admit a ſeaſonable anger: and ſhunne an unſeaſonable jeſt: be moderate in both: doe not for<g ref="char:EOLhyphen"/>get thy ſelfe in thy anger, nor thy friend in thy mirth: by the one thou wilt be burthen<g ref="char:EOLhyphen"/>ſome to thy ſelfe, by the other to the company.</p>
+            </div>
+            <div type="item">
+               <pb n="96" facs="tcp:42402:53"/>
+               <p>LOve the body, but ſubordi<g ref="char:EOLhyphen"/>nate to the ſoule: the Te<g ref="char:EOLhyphen"/>nant is more noble than the houſe: the moſt beautifull bo<g ref="char:EOLhyphen"/>dy is but a body of earth: and the jewels which adorne it are but ſtones in the earth: and the gold and ſilver which it prides in, are veines in this earth; the cloaths which thou weareſt, were the cloathing of ſome beaſt, or the labour of ſome Worme, or at the beſt, of a man like thy ſelfe: thinke then with what vile things thou art made fine: which yet doe but make thee ſo in the eſteeme of others, not truly ſo in thy ſelfe: and doe but hide thoſe
+<pb n="97" facs="tcp:42402:53"/>parts which thou art aſhamed to ſhew, not adorne that inner part which doth truly ſhew thee: therefore to bee ſo much a Chriſtian to preferre that part which thou haſt common with Chriſt in reſpect of his humane nature, thy reaſonable ſoule: or ſo much a man, not to prefer that part which thou haſt common with the beaſt, an earthly body.</p>
+            </div>
+            <div type="item">
+               <p>IF thou art a Maſter, let thy family beaw'd rather by thy example, then thy word: bee angry for ſmall faults it will prevent greater: commend and encourage thoſe that doe well, they will doe better: com<g ref="char:EOLhyphen"/>mendations
+<pb n="98" facs="tcp:42402:54"/>of former goodneſs is a provocation to more.</p>
+            </div>
+            <div type="item">
+               <p>THinke upon this life as a current, ever running: doe not hope to live long, but be aſſur'd not to live ſtill, and account it thy comfort that thou ſhalt one day dye: to wiſh thy ſelfe ever upon earth, is to wiſh thy ſelfe ever out of heaven.</p>
+            </div>
+            <div type="item">
+               <p>BE imploy'd onely in ſuch waies as thou wouldſt not bluſh to bee met in: <hi>Thamar</hi> goes diſguis'd, when to play the harlot: tell nothing of a<g ref="char:EOLhyphen"/>nother which thou wouldeſt
+<pb n="99" facs="tcp:42402:54"/>not have told him: believe nothing of another which thou mayeſt not tell: doe not con<g ref="char:EOLhyphen"/>ſtrue ſeriouſly what is ſpoken but in jeſt, and forbeare thoſe jeſts, which may bee conſtrued to earneſt: heare no ill of a friend, but reply; and ſpeake no ill, though of an enemy.</p>
+            </div>
+            <div type="item">
+               <p>IN thy houſe, let thy enter<g ref="char:EOLhyphen"/>tainement be free, not coſt<g ref="char:EOLhyphen"/>ly; bid thy friends welcome to thy ability, not beyond it; never make one meale ſo, as thou muſt bee faine to fetch it up out of many: bee hoſpita<g ref="char:EOLhyphen"/>ble, but provident: thinke nothing too much for thy friends, which is not too much
+<pb n="100" facs="tcp:42402:55"/>for thy eſtate: hoſpitality bids thy friends welcome; and providence makes thee able to bid them welcome: if hoſpita<g ref="char:EOLhyphen"/>lity bee the life of neighbour<g ref="char:EOLhyphen"/>hood, providence is the life of hoſpitality: hee is not thy friend that expects more than thou art well able; thou art not thine owne friend if thou doeſt leſſe, to live above thy meanes is folly; to live too far below thy means, is a diſparage<g ref="char:EOLhyphen"/>ment: doe all like thy ſelfe, ſo as may neither weaken thy reſ<g ref="char:EOLhyphen"/>pect, nor thy eſtate.</p>
+            </div>
+            <div type="item">
+               <p>LOve not ill company, leſt thou learne, the ill of the company; it is hard, not to be
+<pb n="101" facs="tcp:42402:55"/>like the company thou keepeſt: it is rare, if we deny not Chriſt in <hi>Caiphas</hi> his houſe; with <hi>So<g ref="char:EOLhyphen"/>lomon,</hi> it is hard having the E<g ref="char:EOLhyphen"/>thiopian without her Idols: wee ſee people change their complexion with the Climate: Veſſels ſmell of the liquor they containe: by ordinary com<g ref="char:EOLhyphen"/>munication in the wayes of ſin<g ref="char:EOLhyphen"/>ners without a great deale of care you will communicate with their ſinne: <hi>With the fro<g ref="char:EOLhyphen"/>ward thou wilt learne froward<g ref="char:EOLhyphen"/>neſſe:</hi> he that goes to the mee<g ref="char:EOLhyphen"/>tings of wicked men, will come a wicked man out: or to ſay the beſt, worſe than he went in: for thy converſation, let this be thy rule, if thy company be better, imitate them; if worſe,
+<pb n="102" facs="tcp:42402:56"/>convert them: if equall, and as thou art, joyn with them.</p>
+            </div>
+            <div type="item">
+               <p>FEed the poore often at thy dooro, ſometime at thy Ta<g ref="char:EOLhyphen"/>ble; whatſoever thou giveſt to <hi>Chriſt</hi> in his members, hee will one day give backe againe to thee in thy perſon: it is but juſt if God deny thee thy daily bread, if thou daily deny him the crums.</p>
+            </div>
+            <div type="item">
+               <p>LEt it not trouble thee what is talk'd of thee when thou art abſent, more then what will be talk'd of thee when thou art dead: an ill report doth not make thee an ill man; be careful
+<pb n="103" facs="tcp:42402:56"/>to do no nothing that deſerves to bee ill ſpoken of, let it not trouble thee to be ill ſpoken of undeſervedly.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy prayers bee frequent, thy wants are ſo; and thy thankſgivings frequent, thy bleſſings are ſo: pray daily at home, and if thou canſt, at Church: God is every where, but there hee hath promiſed to be; miſſe not the confeſſion and aboſolution, unleſſe thou haſt no ſinnes to confeſſe, or careſt not to bee forgiven them.</p>
+            </div>
+            <div type="item">
+               <pb n="104" facs="tcp:42402:57"/>
+               <p>THinke not the worſe of the ordinances of God for the ſinnes of the Preacher; thoſe that are ill themſelves, may yet be inſtruments of good to other;s God hath promiſed his bleſſing to the thing, not to the perſon; the ſacrifices of <hi>Elies</hi> ſonnes were effectuall for the people; it is not the peoples fault that the Preacher is wick<g ref="char:EOLhyphen"/>ed, and as it is without their fault, ſo it is without their prejudice; it was our bleſſed Saviours of the Phariſees, <hi>Af<g ref="char:EOLhyphen"/>ter their ſayings doe ye;</hi> we muſt follow their ſayings whoſe deeds we may not; thou may<g ref="char:EOLhyphen"/>eſt not refuſe the word of <hi>God</hi>
+                  <pb n="105" facs="tcp:42402:57"/>from any, if they teach what they ſhould, though they doe not what they teach, the wicked<g ref="char:EOLhyphen"/>neſſe of the meſſenger doth not abate the power of the meanes, as the intemperance and de<g ref="char:EOLhyphen"/>bauchedneſſe of the Phyſician doth not hinder the working of the Phyſick.</p>
+            </div>
+            <div type="item">
+               <p>REmember often that thou art a Chriſtian, and do no<g ref="char:EOLhyphen"/>thing that may diſprove it; be not a law to thy ſelfe, but bee regulated by that which is a law to us all, the Word of God, ſtu<g ref="char:EOLhyphen"/>dy not how much to make thy life longer, but better; conſider that the longer thou art here,
+<pb n="106" facs="tcp:42402:58"/>here, the longer thou art from God; let it be thy care rather to lead a good life than a long; endeavour to thy ability to doe well, and grieve that thou canſt not doe better; doe not wrong to others; forgive the wrongs which others doe thee; ſtrive what thou canſt to keep a good name, but rather a good conſci<g ref="char:EOLhyphen"/>ence; if men miſtake thee, comfort thy ſelfe that God which ſhall reward thee, doth not; looke upon the neceſſities of others, not as a ſtranger, but a member, as thou wouldeſt have God looke upon thine; be good to all, God is ſo; but with a difference; <hi>Eſpecially to the houſhold of faith;</hi> cheriſh no ſinne in thy ſelfe, and coun<g ref="char:EOLhyphen"/>tenance
+<pb n="107" facs="tcp:42402:58"/>none in another: ac<g ref="char:EOLhyphen"/>quaint thy ſelfe rather with the commandements of God, than the decrees; and conclude of thy ſalvation to thy ſelfe, ra<g ref="char:EOLhyphen"/>ther by a diligent obſerving of his revealed will, than by ſearching into his ſecret will: let not the changes of this World, to preferment or want, make thee either ſond of thy life, or weary of it: be conten<g ref="char:EOLhyphen"/>ted to live, but bee deſirous to die, <hi>To bee diſſolved and to bee with Chriſt;</hi> And though thy body bee not yet in heaven, let thy heart be there.</p>
+            </div>
+            <div type="item">
+               <p>LEt thy firſt care bee to bee good thy ſelfe, thy next
+<pb n="108" facs="tcp:42402:59"/>care to make others ſo: be not a Chriſtian in ſhew only, yet in every thing ſhew thy ſelfe a Chriſtian; doe nothing but what is good, and ſpeake no<g ref="char:EOLhyphen"/>thing but what is truth: hee is the beſt Chriſtian that ſpeakes well, and doth as hee ſpeakes.</p>
+               <q>
+                  <lg>
+                     <l>He is the true and reall Chriſtian whoſe</l>
+                     <l>Moſt holy words are ſeconded with deeds;</l>
+                     <l>Who lives Religion over, and well knowes</l>
+                     <l>Chriſtianity conſiſts not all in creeds;</l>
+                     <l>Pinns not his life, nor faith to others ſleeve,</l>
+                     <l>Beleeves what's writ, and lives as hee be<g ref="char:EOLhyphen"/>leeves.</l>
+                  </lg>
+                  <lg>
+                     <l>Slow to revenge a wrong; not to forgive;</l>
+                     <l>Whoſe goodneſſe is not onely to the eye;</l>
+                     <l>Thinks rather how to die, than how to live;</l>
+                     <l>And yet is dead to ſin before he die:</l>
+                     <l>And who lives here on earth, and dies to ſin;</l>
+                     <l>When he is dead his life doth but begin.</l>
+                  </lg>
+                  <lg>
+                     <l>Who doth not what he likes, but what he may;</l>
+                     <l>And asks, what may I, to, not of himſelfe,</l>
+                     <pb n="109" facs="tcp:42402:59"/>
+                     <l> But of Religion and the Scriptures ſay,</l>
+                     <l>Who is his own rule, runs upon a ſhelfe;</l>
+                     <l>Who though he might, he would not bee de<g ref="char:EOLhyphen"/>boiſe</l>
+                     <l>Is good, not of neceſſity, but choice.</l>
+                  </lg>
+                  <lg>
+                     <l>That makes not opportunity his bawd;</l>
+                     <l>(Occaſion ſometime doth invite a ſin)</l>
+                     <l>To may and will not, is the Chriſtians laud;</l>
+                     <l>He's guilty that is out and would be in;</l>
+                     <l>But being tempted, or but not withſtood</l>
+                     <l>Not to be evill it a double good.</l>
+                  </lg>
+                  <lg>
+                     <l>That can revenge a wrong, but doth forbear it,</l>
+                     <l>And to be ſlow to malice, is not ſloth;</l>
+                     <l>Speaks only what is truth, but will not ſweare it;</l>
+                     <l>Nor ſecond every triſle with an oath;</l>
+                     <l>That likes no vice though follow'd with a throng</l>
+                     <l>Who meaſure truth by voices doth it wrong.</l>
+                  </lg>
+                  <lg>
+                     <l>Some good he doth, yet ſain he would do more;</l>
+                     <l>To would be better is an act of grace;</l>
+                     <l>His mind is rich to Chriſt, his power is poor;</l>
+                     <l>God mend his power, &amp; he will mend his pace:</l>
+                     <l>Mean time God likes the will, &amp; in his Son</l>
+                     <l>What we would do, is in th'acceptance done.</l>
+                  </lg>
+                  <lg>
+                     <l>If yet he doe, (as who did never ill,</l>
+                     <l>Who is without his errors?) yet is this</l>
+                     <l>The errour of his frailty, not his will:</l>
+                     <l>He doth indeed, but grieves to do amiſſe;</l>
+                     <pb n="110" facs="tcp:42402:60"/>
+                     <l> To ſigh and grieve for what we cannot do,</l>
+                     <l>Is to come ſhort, and yet to do it to.</l>
+                  </lg>
+                  <lg>
+                     <l>You'll ſay them Chriſtianity is hard,</l>
+                     <l>What good was ever eaſie? where the gaines</l>
+                     <l>Are greateſt, likely there the way is bar'd;</l>
+                     <l>Double renowne is bad with double paines:</l>
+                     <l>Who ſo doth follow Chriſt, doth pitch a field,</l>
+                     <l>'Tis leſs praiſe not to fight, than not to yeeld.</l>
+                  </lg>
+                  <lg>
+                     <l>Worldly advancements are not had with caſe;</l>
+                     <l>And want is the inheritance of ſloth:</l>
+                     <l>Wouldſt thou do leſs for heaven than for theſe?</l>
+                     <l>'Tis fit who would have one, he ſhould have both</l>
+                     <l>The gain with hardnes, thus it is les hard;</l>
+                     <l>The danger's great, and ſo is the reward.</l>
+                  </lg>
+               </q>
+            </div>
+            <div type="item">
+               <p>LEt it trouble thee more to doe a fault, than to hear of it: if thou art ill ſpoken of by another; firſt call thy ſelfe to account; before him, it may be thou deſerveſt it: bee more ſorry that it is true, then that
+<pb n="111" facs="tcp:42402:60"/>it is knowne; if falſe, it is not thy fault that thou art bely'd; it is thy comfort that it is a lye: doe not thinke to bee ever free from cenſure, here, not ſome<g ref="char:EOLhyphen"/>times from faults: hee is the beſt man that erres ſeldomeſt, hee is more then a man that ne<g ref="char:EOLhyphen"/>ver errer.</p>
+            </div>
+            <div type="item">
+               <p>IN Religion receive no opi<g ref="char:EOLhyphen"/>nion upon credit, and vent none upon diſcontent: be of that opinion that may ſave thee, rather then that may raiſe thee; let not the doores of thy lips move upon the hinges of another mans tongue; ſpeake what thou thinkeſt, not what others ſpeak; ſo follow good
+<pb n="112" facs="tcp:42402:61"/>men, as remembring they are but men; goe rather the way which you ought, than the way that is gone; make others companions but not copies, or ſo far copies as they agree with the Originall.</p>
+            </div>
+            <div type="item">
+               <p>TAke whatſoever God doth, thankefully; and do whatſoever hee commands cheerefully; labour to make a good uſe of ill accidents: hate every mans ſinne, love every mans perſon, and love no mans ſinn for the perſons ſake.</p>
+            </div>
+            <div type="item">
+               <p>FEare rather to doe ill, than to ſuffer for thy ill doing:
+<pb n="113" facs="tcp:42402:61"/>he that truly feares ſinne ſhall never feare puniſhment; think upon the goodneſſe of God, and thou wilt love him, and thinke upon the juſtice of God, and thou wilt feare him, and ſo by conſequence, love that which may free thee from this feare: and ſo between theſe two, thou wilt feare to doe any thing a<g ref="char:EOLhyphen"/>gainſt him whom thou loveſt, and thou wilt (at leaſt) not love to do any thing againſt him for fear.</p>
+            </div>
+            <div type="item">
+               <p>IF the actions of another re<g ref="char:EOLhyphen"/>flect to thy harme, examine not what is done, but what was intended; and if he intended no ill, thinke hee hath done thee
+<pb n="114" facs="tcp:42402:62"/>none, though in effect he have; willingly doe no wrong. wink at thoſe wrongs that are unvil<g ref="char:EOLhyphen"/>lingly done thee, God doth ſo, and meaſures what wee doe by what wee meane to doe: hee that ſhot at a marke and kil'd a man, by the Law of God was not held a murtherer: God workes in us both to will and to doe, as hee doth ſometimes accept the will for the deed; ſo bee doth uſually meaſure the deed by the will.</p>
+            </div>
+            <div type="item">
+               <p>DO not eaſily entertaine a friend, nor eaſily part with him; think him no true friend whom one injury can make thineenemy; or that accounts
+<pb n="115" facs="tcp:42402:62"/>every errour an injury; he muſt have no friends, that will have a friend with no faults: make no man thine enemy by doing him wrong; become not an e<g ref="char:EOLhyphen"/>nemy to every one that wrongs thee, account every man thy neighbour, though thine ene<g ref="char:EOLhyphen"/>my, that needs thee.</p>
+            </div>
+            <div type="item">
+               <p>IN Religion looke to the end but by the meanes; thinke not to partake of what God hath promiſed, but by doing in ſome meaſure what hee hath commanded: though heaven be had without our deſert, yet it is not had without our paines; then mayeſt thou hope that God wil be as good as his word
+<pb n="116" facs="tcp:42402:63"/>to thee, when thou ſincerely en<g ref="char:EOLhyphen"/>deavoureſt to be as good as his Word commands thee to bee towards him.</p>
+            </div>
+            <div type="item">
+               <p>DO nothing which is ill, nor every thing which is law<g ref="char:EOLhyphen"/>full; meaſure not thy liberty by the lawfulneſſe of the thing, but the expediency; many times an unſeaſonable good, though it bee not ill in it ſelfe, yet it is in the occaſion of it; he which will at no time forbeare to do ſomething which he may, will at ſometime do ſomething which he may not.</p>
+            </div>
+            <div type="item">
+               <pb n="117" facs="tcp:42402:63"/>
+               <p>BE content to heare of ano<g ref="char:EOLhyphen"/>thers praiſes before thee without repining; and to tell of anothers praiſes without detra<g ref="char:EOLhyphen"/>cting: to ſpeak well of all men, or not at all: for as it is flattery of ſpeak that good of another which is falſe: ſo it is detracti<g ref="char:EOLhyphen"/>on, to ſpeak that ill of another unneceſſarily which is true.</p>
+            </div>
+            <div type="item">
+               <p>FOrgive the willfull injuries of any, yet tell him of them, by ſhewing him of his fault, thou ſheweſt him his duty; do not love him leſs for it, but truſt him leſſe: but if he be tho<g ref="char:EOLhyphen"/>rowly ſorry for it: be thou tho<g ref="char:EOLhyphen"/>rowly
+<pb n="118" facs="tcp:42402:64"/>ſatisfied; God askes no more for thine: conſider that to ſuffer wrongs is common to thee with Chriſt; and to for<g ref="char:EOLhyphen"/>give wrongs proper to thee as a Chriſtian: God doth ſuffer ſuch wrongs to be, that he may exerciſe thy patience: and hee commands thee to forgive thoſe wrongs, that thou mayeſt exer<g ref="char:EOLhyphen"/>ciſe thy charity.</p>
+            </div>
+            <div type="item">
+               <p>SO live as thou mayeſt not be afraid to die, as thou mayeſt bee aſſur'd of a better life after death: do nothing which ſhall need an excuſe, or feare a wit<g ref="char:EOLhyphen"/>neſs, and ſo uſe this world, as remembring you muſt account for it in the next.</p>
+            </div>
+            <div type="item">
+               <pb n="119" facs="tcp:42402:64"/>
+               <p>LEt thy diſcourſe bee ever of goodneſſe, but not of thine owne: or of the good, which thou haſt received of God, not which thou haſt done: if thy talke bee good, thou doeſt at once both ſhew goodneſſe, and teach it.</p>
+            </div>
+            <div type="item">
+               <p>BEE good without much noiſe: bee provident with<g ref="char:EOLhyphen"/>out perplexedneſſe: be merry without lightneſſe: bee boun<g ref="char:EOLhyphen"/>tifull without waſt: live to the benefit of all, but to the ſervice only of God.</p>
+               <q>
+                  <pb n="120" facs="tcp:42402:65"/>
+                  <lg>
+                     <l>If now thou act not perfect yet with theſe,</l>
+                     <l>(As where is there perfection here below)</l>
+                     <l>Yet they may do enough to make thee pleaſe,</l>
+                     <l>God accepts what we can, for what me owe;</l>
+                     <l>Whilſt thou endeavour'ſt to be what tho ſhouldſt,</l>
+                     <l>If thou want'ſt power, 'tis enough tho wouldſt.</l>
+                  </lg>
+                  <lg>
+                     <l>The cleareſt water is not free from mud;</l>
+                     <l>The Sun is not exempted from <gap reason="illegible: faint" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap>lips;</l>
+                     <l>Here our perfection is but mingled good;</l>
+                     <l>And he is more then man that never ſlips:</l>
+                     <l>In all we doe, we ſomething do amiſſe,</l>
+                     <l>And our perfection imperfection is.</l>
+                  </lg>
+                  <lg>
+                     <l>For the condition of our preſent plight</l>
+                     <l>Is, that we would he better than we are,</l>
+                     <l>Not a perfection ever but a height,</l>
+                     <l>And we are good, but not without a ſcarre;</l>
+                     <l>All things are like our ſelves, a mixture, then</l>
+                     <l>God doth not look that we ſhould not be men.</l>
+                  </lg>
+               </q>
+            </div>
+            <trailer>FINIS.</trailer>
+            <closer>GLORIA DEO.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
